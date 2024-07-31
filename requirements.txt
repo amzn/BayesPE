@@ -1,0 +1,10 @@
+torch
+transformers
+datasets
+sentence_transformers
+scikit-learn
+einops
+accelerate
+pandas
+torchmetrics
+sentencepiece

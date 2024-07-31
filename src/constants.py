@@ -1,0 +1,14 @@
+LLMS = ['Falcon40bInstruct', 'Mistral7bInstruct', 'MPT7bInstruct', 'Falcon7bInstruct', 'MPT30bInstruct']
+LLMS_NAMES = ['tiiuae/falcon-40b-instruct', 'mistralai/Mistral-7B-Instruct-v0.1', 'mosaicml/mpt-7b-instruct', 'tiiuae/falcon-7b-instruct', 'mosaicml/mpt-30b-instruct']
+METHODS = ['standard', 'ensemble', 'self-assess', 'bayesian', 'best', 'ridge']
+MODES = ['zero_shot', 'few_shot']
+TASKS = ['amazon_reviews', 'dbpedia_14', 'glue_mrpc', 'imdb', 'snli', 'sst2', 'trec', 'yahoo_answers', 'youtube', 'sms']
+METRICS = ['nll', 'auc', 'ece', 'mce', 'brier']
+TEXT = 'text'
+GROUND_TRUTH_LABEL = 'ground_truth_label'
+GT_LABEL = 'gt_label'
+INSTRUCTION = 'instruction'
+INDEX = 'index'
+INFERRED_LABEL = 'inferred_label'
+INFERRED_CONFIDENCE = 'inferred_confidence'
+INFERRED_PROB = 'inferred_prob'
